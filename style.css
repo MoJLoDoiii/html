@@ -1,0 +1,161 @@
+/* ==================================================
+   CSS CHALLENGE: ВРЯТУЙ САЙТ ПРО ХАРКІВ
+
+   УМОВА:
+   HTML НЕ ЗМІНЮВАТИ.
+   Виправте дизайн ТІЛЬКИ за допомогою CSS.
+   ================================================== */
+
+body {
+    margin: 0;
+    background-color: #ffffff;
+    color: #ff00aa;
+    font-family: "Comic Sans MS", cursive;
+    line-height: 1;
+}
+
+.hero {
+    background-color: #ffffff;
+    color: #212529;
+    text-align: left;
+    padding: 4px;
+}
+
+.label {
+    font-size: 9px;
+    color: blue;
+}
+
+.hero h1 {
+    font-size: 82px;
+    margin: 0;
+}
+
+.hero-text {
+    width: 450px;
+    font-size: 30px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 2px 5px;
+    /*margin-top: 2px;*/
+    /*border: 6px dashed white;*/
+    border-radius: 0;
+    font-size: 28px;
+    /*text-decoration: underline;*/
+}
+.section-intro {
+    background-color: #ffffff;
+}
+.intro-h2 {
+    font-size: 52px;
+    text-align: center;
+    color: black;
+}
+.intro-text{
+    text-align: center;
+    color: black;
+}
+.section {
+    max-width: 1200px;
+    margin: 2px auto;
+    padding: 3px;
+    background-color: #ffffff;
+}
+
+.section h2 {
+    font-size: 52px;
+    text-align: center;
+    color: black;
+}
+
+.intro {
+    background-color: #ff6600;
+    font-size: 11px;
+}
+
+.cards {
+    display: flex;
+    gap: 1px;
+}
+
+.card { 
+    flex: 1;
+    background-color: #000000;
+    padding: 2px;
+    /*border: 6px dotted red;*/
+    border-radius: 0;
+    /*box-shadow: 20px 20px 0 #9900ff;*/
+}
+
+.card-text {
+    color: #ffffff  ;
+    font-size: 24px;
+}
+
+/* Фото навмисно оформлені погано.
+   Учні мають самостійно виправити їх через CSS. */
+.card-photo {
+    width: 100%;
+    height: 290px;
+    object-fit: fill;
+    border-radius: 0;
+}
+
+.tag {
+    font-size: 9px;
+    color: white;
+    letter-spacing: 0;
+}
+
+.card h3 {
+    margin: 2px 0;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.card p {
+    font-size: 10px;
+}
+
+.route {
+    background-color: #ffffff;
+    color: #00ff00;
+}
+
+.facts {
+    display: flex;
+    gap: 0;
+}
+
+.fact {
+    flex: 1;
+    text-align: left;
+    padding: 2px;
+    /*border: 5px solid yellow;*/
+}
+
+.fact span {
+    font-size: 58px;
+    color: #000000;
+}
+.fact p {
+    color: #000000;
+}
+footer {
+    background-color: #ffffff;
+    color: black;
+    text-align: right;
+    padding: 3px;
+    font-size: 9px;
+}
+
+@media (max-width: 700px) {
+    .cards,
+    .facts {
+        flex-direction: column;
+    }
+}
